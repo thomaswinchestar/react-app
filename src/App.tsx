@@ -1,8 +1,11 @@
-import ListGroup from "./components/ListGroup.tsx";
+import Button from "./components/Button";
+
 function App() {
   return (
     <div>
-      <ListGroup />
+      <Button color="primary" onClick={() => console.log("Clicked!")}>
+        Hello World
+      </Button>
     </div>
   );
 }
